@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+
+    <!-- CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google-font -->
+       <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+              
+                main: '#ABEF5F',
+                btn: 'rgba(171, 239, 95, 0.2)',
+                                   
+              },
+              fontFamily: {
+                fontMain: ['Manrope'],
+              }
+            }
+          }
+        }
+      </script>
+
+    
+
+</head>
+<body class="font-fontMain  bg-[#f5f5f5]">
+    
+    <header class="container mx-auto   ">
+        <div class="navbar pt-4 ">
+            <div class="">
+
+           
+
+              <i class="fa-solid fa-arrow-right bg-main -rotate-45 p-2 rounded-full" ></i>
+              <a class="btn btn-ghost text-3xl font-bold">Rinterio</a>
+            </div>
+
+            <div class="navbar-center hidden lg:flex ">
+              <ul class="menu menu-horizontal px-1 text-base  font-semibold ml-40">
+                <li><a>Home</a></li>
+                <li class="text-gray-500"><a>Service</a></li>
+                <li class="text-gray-500"><a>Portfilio</a></li>
+                <li class="text-gray-500"><a>Blogs</a></li>
+                <li class="text-gray-500"><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end space-x-8">
+              <i class="fa-solid fa-magnifying-glass bg-white p-2 rounded-full lg:block sm:hidden"></i>
+              <i class="fa-solid fa-cart-shopping bg-white p-2 rounded-full lg:block sm:hidden"></i>
+              
+                <button class="text-base font-bold bg-main py-2 px-4 rounded-2xl  lg:block sm:hidden">Book Consult <i class="fa-solid fa-arrow-right bg-black text-white ml-1  -rotate-45 p-1 rounded-full" ></i></button>
+                <i class="fa-solid fa-bars py-2 px-4 text-xl rounded-full bg-white lg:hidden  "></i>
+           
+            </div>
+          </div>
+
+          <!-- banner -->
+
+         <div class=" text-center space-y-8 ">
+            <div >
+                <img class=" inline-block pt-10" src="./assets/banner.png" alt="">
+               </div>
+     
+               <div class="space-y-8 ">
+                 <h1 class="text-4xl lg:text-7xl font-extrabold ">A barn house of this design has a striking appearance</h1>
+                 <p class="text-gray-700 text-lg">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, <br> sleek metal accents, and large windows that flood the space with natural light.</p>
+                 <button class="bg-btn py-2 px-8 rounded-2xl mb-20">View Details <i class="fa-solid fa-arrow-right bg-main -rotate-45 p-2 rounded-full ml-2" ></i></button>
+               </div>
+         </div>
+    </header>
+
+    
+</body>
+</html>
