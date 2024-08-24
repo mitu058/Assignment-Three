@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Real Estate</title>
 
-    <link rel="stylesheet" href="./style/style.css">
+    
 
     <!-- CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- google-font -->
+    
        <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,17 +41,15 @@
         }
       </script>
 
-    
-
 </head>
-<body class="font-fontMain bg-stone-50"  >
+
+<body class="font-fontMain bg-stone-50 "  >
     
-    <header class="container mx-auto  px-4 mb-20 header ">
+    <header class="container mx-auto  px-4 mb-20  ">
         <div class="navbar pt-4 ">
             <div class="">
 
-           
-
+          
               <i class="fa-solid fa-arrow-right bg-main -rotate-45 p-2 rounded-full" ></i>
               <a class="btn btn-ghost text-3xl font-bold">Rinterio</a>
             </div>
@@ -127,7 +125,7 @@
 
           <!-- image -->
            <div>
-            <img src="./assets/Rectangle.png" alt="">
+            <img class="lg:h-auto lg:w-auto h-[270px] w-[380px]" src="./assets/Rectangle.png" alt="">
            </div>
 
         </div>
@@ -183,7 +181,7 @@
   </div>
 
    <!-- Portfolio -->
-   <div class="">
+   <div>
     <!-- first -->
     <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-x-5 gap-y-5">
         <div class="grid grid-cols-1 lg:grid-cols-2 col-span-2 border border-[#E9E9E9] rounded-xl p-4">
@@ -217,13 +215,13 @@
             </button>                        
         </div>
     </div>
-    <div class="border border-[#E9E9E9] rounded-xl p-4 lg:order-none order-first"><img class="lg:w-full w-[359px] lg:h-full h-[250px]" src="./assets/img5.png" alt="">
+    <div class="border border-[#E9E9E9] rounded-xl p-4 lg:order-none order-first"><img class="lg:w-full w-[359px] lg:h-full sm:h-[250px]" src="./assets/img5.png" alt="">
     </div>
 </div>
 
     <!-- repeatet section -->
     <div class="lg:mt-0 mt-3 border border-[#E9E9E9] rounded-xl p-4 lg:order-none order-first lg:hidden block">
-      <img class="lg:w-full w-[359px] lg:h-full h-[250px]" src="./assets/img5.png" alt="">
+      <img class="lg:w-full w-[359px] lg:h-full sm:h-[250px]" src="./assets/img5.png" alt="">
     </div>
     </div>
   </div>
@@ -232,7 +230,7 @@
 <!-- Unique Section -->
       
 <section class="bg-white ">
-  <div class="max-w-screen-lg mx-auto py-20 px-4">
+  <div class="max-w-screen-lg mx-auto py-20 lg:px-4 px-5">
 
     <div class="text-center pb-20 space-y-4">
      <button class="py-2 px-4 rounded-2xl bg-btn text-sm font-extrabold">Our Serivices  <i class="fa-solid fa-arrow-right  ml-2" ></i></button>
@@ -242,7 +240,8 @@
 
     <div class="grid grid-cols-1 lg:grid-cols-4 gap-10 items-center text-center justify-center ">
 
-      <div class="">
+         <!-- first -->
+      <div>
         <img class="inline-block pb-4" src="./assets/buy (5).png" alt="">
         <div class="space-y-3">
           <h1 class="text-xl font-bold">Buy A New Home</h1>
@@ -250,6 +249,7 @@
           <p class="text-base font-bold">Learn More  <i class="fa-solid fa-arrow-right  ml-2" ></i></p>
         </div>
       </div>
+
       <!-- second -->
       <div>
         <img  class="inline-block pb-4" src="./assets/rent (1).png" alt="">
@@ -259,6 +259,7 @@
           <p class="text-base font-bold">learn More  <i class="fa-solid fa-arrow-right     ml-2" ></i></p>
         </div>
       </div>
+
       <!-- third -->
       <div>
         <img  class="inline-block pb-4" src="./assets/sale (1).png" alt="">
@@ -268,6 +269,7 @@
           <p class="text-base font-bold">learn More  <i class="fa-solid fa-arrow-right     ml-2" ></i></p>
         </div>
       </div>
+
 <!-- fourth -->
       <div >
         <img  class="inline-block pb-4 " src="./assets/documents (1).png" alt="">
@@ -283,9 +285,89 @@
   </div>
   </section>
 
+<!-- Artical and news -->
 
-        <!-- dicuss section -->
-         <section class="bg-[url(./assets/bg.jpg)] bg-no-repeat bg-cover">
+<section class="bg-stone-100">
+
+  <div class="text-center space-y-5 pt-20 px-5">
+    <button class="py-2 px-4 rounded-2xl bg-btn text-sm font-extrabold "> <i class="fa-solid fa-arrow-right mr-3"></i> 
+      Renterio News</button>
+    <h1 class="text-4xl font-bold">Read Our Articles and News</h1>
+    <p class="font-bold opacity-80">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+  </div>
+
+  <div class="max-w-screen-lg mx-auto px-5 grid grid-cols-1 lg:grid-cols-3 gap-10 pt-12 pb-20">
+
+<!-- card-1 -->
+  <div class="p-6 rounded-2xl shadow-md bg-white space-y-4">
+    <div><img src="./assets/article1.png" alt=""></div>
+    <div class="flex">
+       <div class="flex space-x-3">
+        <i class="fa-regular fa-calendar-days text-lg"></i>
+        <h3 class="font-bold opacity-80">July 14, 2024</h3>
+       </div>
+
+       <div class="flex space-x-2 ml-4" >
+        <i class="fa-regular fa-circle-user text-lg"></i>
+        <h3 class="font-bold opacity-80">By Admin</h3>
+       </div>
+    </div>
+
+    <h1 class="text-lg font-bold">How to choose the furniture right  of your home.</h1>
+    <p  class=" text-sm font-bold opacity-80">The barn house captivates with its blend of rustic charm and modern. </p>
+    <button class="text-lg font-bold">Read More
+      <i class="fas fa-arrow-right ml-2  bg-main p-2 rounded-full -rotate-45"></i>
+  </button> 
+  </div>
+
+  <!-- card-2 -->
+  <div class="p-6 rounded-2xl shadow-md bg-white space-y-4">
+    <div><img src="./assets/article2.png" alt=""></div>
+    <div class="flex">
+       <div class="flex space-x-3">
+        <i class="fa-regular fa-calendar-days text-lg"></i>
+        <h3 class="font-bold opacity-80">July 14, 2024</h3>
+       </div>
+
+       <div class="flex space-x-2 ml-4" >
+        <i class="fa-regular fa-circle-user text-lg"></i>
+        <h3 class="font-bold opacity-80">By Admin</h3>
+       </div>
+    </div>
+
+    <h1 class="text-lg font-bold">How to choose the furniture right  of your home.</h1>
+    <p  class=" text-sm font-bold opacity-80">The barn house captivates with its blend of rustic charm and modern. </p>
+    <button class="text-lg font-bold">Read More
+      <i class="fas fa-arrow-right ml-2  bg-main p-2 rounded-full -rotate-45"></i>
+  </button> 
+  </div>
+
+  <!-- card-3 -->
+  <div class="p-6 rounded-2xl shadow-md bg-white space-y-4">
+    <div><img src="./assets/article3.png" alt=""></div>
+    <div class="flex">
+       <div class="flex space-x-3">
+        <i class="fa-regular fa-calendar-days text-lg"></i>
+        <h3 class="font-bold opacity-80">July 14, 2024</h3>
+       </div>
+
+       <div class="flex space-x-2 ml-4" >
+        <i class="fa-regular fa-circle-user text-lg"></i>
+        <h3 class="font-bold opacity-80">By Admin</h3>
+       </div>
+    </div>
+
+    <h1 class="text-lg font-bold">How to choose the furniture right  of your home.</h1>
+    <p  class=" text-sm font-bold opacity-80">The barn house captivates with its blend of rustic charm and modern. </p>
+    <button class="text-lg font-bold">Read More
+      <i class="fas fa-arrow-right ml-2  bg-main p-2 rounded-full -rotate-45"></i>
+  </button> 
+  </div>
+</div>
+</section>
+
+  <!-- dicuss section -->
+         <section class="bg-[url(./assets/bg.jpg)] bg-no-repeat bg-cover bg-center my-3   ">
           
            <div class="max-w-screen-lg mx-auto pb-20 px-4">
             <div class="text-center py-20 space-y-5 ">
@@ -344,12 +426,15 @@
      </main>
 
      <footer class="bg-black my-4">
-        <div class="max-w-screen-md mx-auto px-6">
+        <div class="max-w-screen-md mx-auto px-5">
          <div class="text-center py-12">
             
-                <i class="fa-solid fa-arrow-right bg-main -rotate-45 p-2 rounded-full" ></i>
-            <a class="btn btn-ghost text-3xl font-bold text-white">Rinterio</a>
-            
+              
+                <i class="fa-solid fa-arrow-right bg-main -rotate-45 p-2   rounded-full" >
+                   </i>
+                <a class="btn btn-ghost text-3xl font-bold text-white">Rinterio</a>
+             
+        
             <p class="text-footer mt-4">Dedicated to helping you find, buy, sell, or rent with confidence. <br> Contact us today to turn your real estate dreams into reality.</p>
           
 
